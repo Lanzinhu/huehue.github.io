@@ -1,0 +1,100 @@
+body{
+	background-image:url(../imagens/razerblackwindow.jpg);
+	background-color:#999999;
+}
+.container{
+	max-width:50%;
+	border-style:double;
+	border-color:#32CD32;
+	margin:0 auto;
+	background-color:black;
+	border-radius:10px;
+}
+header{
+	background-image:url(../imagens/fosco.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	color:#32CD32;
+	font-size:25px;
+	text-align:center;
+	height:65px;
+	padding-top:5px;
+	padding-bottom:1.5em;
+	border-radius:10px 10px 0px 0px;
+	
+}
+footer{
+	background-image:url(../imagens/preto.jpg);
+	/**border-color:#32CD32;*/
+	height:20px;
+	width:98,9%;
+	border-top-style:double;
+	border-top-color:#32CD32;
+	/*border-style:double;*/
+	color:#32CD32;
+	padding-left:1px;
+	border-radius:0px 0px 10px 10px;
+}
+#conteudo{
+	color:white;
+	background-image:url(../imagens/preto.jpg);
+	border-top-style:double;
+	border-top-color:#32CD32;
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:510px;/*esta é altura da div id conteudo*/
+	padding-left:5px;
+	
+}
+#historia{
+	color:white;
+	background-image:url(../imagens/preto.jpg);
+	border-top-style:double;
+	border-top-color:#32CD32;
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:1020px;/*esta é altura da div id conteudo*/
+	padding-left:5px;
+	
+}
+#but-historia{
+	background-image:url(../imagens/menu.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	padding-top:4px;
+	height:69px;
+	border-radius:5px 5px 0px 0px;
+	/*border-top-style:double;
+	border-top-color:green;*/
+	
+}
+#pro1{
+	
+	max-width:32.2%;
+	float:left;
+}
+#pro2{
+	max-width:32.2%;
+	/*border-style:solid;
+	border-color:green;*/
+	float:right;
+	margin:0 auto;
+}
+#pro3{
+	max-width:32.2%;
+	
+	float:right;
+	margin:0 auto;
+}
+a:link{ 
+	text-decoration:none;
+	color:#32CD32;
+}
+a:hover{
+	text-decoration:underline;
+	color:##32CD32;
+}
+a:visited{
+	text-decoration:underline;
+	color:#32CD32;
+}
